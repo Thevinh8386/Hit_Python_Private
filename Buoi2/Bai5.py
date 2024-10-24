@@ -1,0 +1,5 @@
+a = int(input("Nhập số a: "))
+total_bits = len(oct(a).replace('0o', ''))
+print(f"Số lượng các bits cần thiết để biểu diễn số a ở hệ 8:", total_bits)
+print("Các thuộc tính và phương thức của kiểu number: ")
+print(dir(a))
